@@ -121,7 +121,7 @@ Tools like LibreX ([https://github.com/hnhx/librex](https://github.com/hnhx/libr
 
 ## Final thoughts
 
-By being more "goat" than "sheep" (to use Martin Hamilton's metaphor), you can reclaim control over your search experience, protect your privacy, and potentially access more diverse, less manipulated search results.
+By being more "goat" than "sheep" (to use Martin's metaphor), you can reclaim control over your search experience, protect your privacy, and potentially access more diverse, less manipulated search results.
 
 Remember that the perfect search engine is the one that best meets your specific needs and values.
 
