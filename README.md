@@ -72,6 +72,7 @@ The mainstream search landscape has evolved dramatically from the "pure search" 
 | **Perplexity** | [https://www.perplexity.ai](https://www.perplexity.ai) | AI research assistant | Combines search with AI synthesis |
 
 </div>
+<!-- 
 <style>
    
 div[style*="overflow-x: auto"] {
@@ -101,6 +102,7 @@ table {
 }
    
 </style>
+-->
 
 ## Setting up UDM-14 (Google's "clean search" mode)
 
