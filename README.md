@@ -11,7 +11,7 @@ This talk will highlight a few ways to put search back in the service of the sea
 
 # Summary
 
-## Why Consider Alternatives?
+## Why consider alternatives?
 
 The mainstream search landscape has evolved dramatically from the "pure search" days of early Google to today's experience filled with:
 
@@ -21,11 +21,11 @@ The mainstream search landscape has evolved dramatically from the "pure search" 
 - Content filtering and potential censorship
 - AI-generated results with potential inaccuracies
 
-## Notable Alternative Search Engines
+## Notable alternative search engines
 
-### Privacy-Focused Search Engines
+### Privacy-focused search engines
 
-| Search Engine | URL | Key Features | Business Model |
+| Search engine | URL | Key features | Business model |
 |---------------|-----|--------------|---------------|
 | **DuckDuckGo** | [https://duckduckgo.com](https://duckduckgo.com) | No personal tracking, private browsing | Ads based on search keywords only |
 | **Startpage** | [https://startpage.com](https://startpage.com) | Google results without tracking, Anonymous View | Non-personalized ads |
@@ -33,31 +33,31 @@ The mainstream search landscape has evolved dramatically from the "pure search" 
 | **Qwant** | [https://www.qwant.com](https://www.qwant.com) | European privacy-focused engine | Ads based on keywords only |
 | **SearX** | [https://searx.space](https://searx.space) (instances list) | Self-hostable metasearch engine | Open-source, no ads |
 
-### Subscription-Based Search
+### Subscription-based search
 
-| Search Engine | URL | Key Features | Business Model |
+| Search engine | URL | Key features | Business model |
 |---------------|-----|--------------|---------------|
 | **Kagi** | [https://kagi.com](https://kagi.com) | Ad-free, customizable, AI features | $10/month subscription |
 | **Neeva** | [https://neeva.com](https://neeva.com) | Ad-free, includes personal accounts integration | Subscription-based (recently acquired by Snowflake) |
 
-### Independent Index Engines
+### Independent index engines
 
-| Search Engine | URL | Key Features | Business Model |
+| Search engine | URL | Key features | Business model |
 |---------------|-----|--------------|---------------|
 | **Mojeek** | [https://www.mojeek.com](https://www.mojeek.com) | UK-based independent crawler and index | Ads (with privacy focus) |
 | **Yep** | [https://yep.com](https://yep.com) | Independent index from Ahrefs | Ads with 90% revenue sharing to content creators |
 | **Noir** | [https://noir.essearch.eu](https://noir.essearch.eu) | EU initiative for European search engine | Government/EU funded |
 
-### Specialized Search Engines
+### Specialized search engines
 
-| Search Engine | URL | Specialization | Notes |
+| Search engine | URL | specialization | notes |
 |---------------|-----|--------------|---------------|
 | **Ecosia** | [https://www.ecosia.org](https://www.ecosia.org) | Eco-friendly | Uses profits to plant trees |
 | **Presearch** | [https://presearch.org](https://presearch.org) | Decentralized | Uses blockchain and node operators |
 | **You.com** | [https://you.com](https://you.com) | AI-integrated | Chat interface with web search |
 | **Perplexity** | [https://www.perplexity.ai](https://www.perplexity.ai) | AI research assistant | Combines search with AI synthesis |
 
-## Setting Up UDM-14 (Google's "Clean Search" Mode)
+## Setting up UDM-14 (Google's "clean search" mode)
 
 UDM-14 is a parameter discovered in Google Search URLs that removes AI overviews and many promotional elements, providing a cleaner search experience reminiscent of earlier Google.
 
@@ -68,7 +68,7 @@ The simplest approach is to use the UDM-14.com service:
 1. Visit [https://udm14.com/](https://udm14.com/)
 2. Follow the instructions to add it as your default search engine
 
-### Method 2: Manual Browser Configuration
+### Method 2: Manual browser configuration
 
 #### For Chrome:
 1. Go to Settings > Search engine > Manage search engines
@@ -92,7 +92,7 @@ The simplest approach is to use the UDM-14.com service:
 1. Create a bookmark with this URL: `https://www.google.com/search?q=%s&udm=14`
 2. Edit the bookmark to add a keyword like "g"
 
-### Method 3: Browser Extensions
+### Method 3: Browser extensions
 
 Several browser extensions automate the addition of UDM-14:
 
@@ -100,26 +100,26 @@ Several browser extensions automate the addition of UDM-14:
 - "Unprompted" ([https://github.com/chiefonboarding/Unprompted](https://github.com/chiefonboarding/Unprompted)) for multiple browsers
 - "uBlacklist" ([https://github.com/iorate/uBlacklist](https://github.com/iorate/uBlacklist)) can be configured to clean up search results
 
-## Building Your Own Search Solution
+## Building your own search solution
 
 For the technically inclined, consider:
 
-### Self-Hosted Search Options
+### Self-hosted search options
 - **SearXNG**: [https://github.com/searxng/searxng](https://github.com/searxng/searxng) - A privacy-respecting metasearch engine you can self-host
 - **Whoogle**: [https://github.com/benbusby/whoogle-search](https://github.com/benbusby/whoogle-search) - A self-hosted, privacy-focused Google search proxy
 - **YaCy**: [https://yacy.net](https://yacy.net) - Decentralized, peer-to-peer search engine network
 
-## Advanced Customization
+## Advanced customization
 
-### Using Search Aggregators
+### Using search aggregators
 Tools like LibreX ([https://github.com/hnhx/librex](https://github.com/hnhx/librex)) and SearXNG let you combine results from multiple search engines.
 
-### Creating Custom Search Experiences
+### Creating custom search experiences
 - Use RSS feeds and site maps to build targeted search
 - Implement shared blocklists for filtering unwanted content
 - Deploy search containers for portable search solutions
 
-## Final Thoughts
+## Final thoughts
 
 By being more "goat" than "sheep" (to use Martin Hamilton's metaphor), you can reclaim control over your search experience, protect your privacy, and potentially access more diverse, less manipulated search results.
 
@@ -131,4 +131,4 @@ Remember that the perfect search engine is the one that best meets your specific
 
 ---
 
-**All Credits and Thanks to [Martin Hamilton](https://martinh.net)**
+**All credit and thanks to [Martin Hamilton](https://martinh.net)**
