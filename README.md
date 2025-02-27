@@ -127,7 +127,7 @@ Remember that the perfect search engine is the one that best meets your specific
 
 ---
 
-*This guide was created and augmented with assistance from Claude 3.7 Sonnet, February 2025, based on YoutTube's transcript of Martin Hamilton's talk "Let's Party Like It's 1994: Reimagining How to Find Stuff Online".*
+*This guide was produced with assistance from Claude 3.7 Sonnet, February 2025, based on YouTube's transcript of Martin Hamilton's talk "Let's Party Like It's 1994: Reimagining How to Find Stuff Online".*
 
 ---
 
