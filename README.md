@@ -26,6 +26,7 @@ The mainstream search landscape has evolved dramatically from the "pure search" 
 ### Privacy-focused search engines
 
 <div style="overflow-x: auto;">
+
 | Search engine | URL | Key features | Business model |
 |---------------|-----|--------------|---------------|
 | **DuckDuckGo** | [https://duckduckgo.com](https://duckduckgo.com) | No personal tracking, private browsing | Ads based on search keywords only |
@@ -33,36 +34,43 @@ The mainstream search landscape has evolved dramatically from the "pure search" 
 | **Brave Search** | [https://search.brave.com](https://search.brave.com) | Independent index, no tracking | Freemium (basic search free, premium features paid) |
 | **Qwant** | [https://www.qwant.com](https://www.qwant.com) | European privacy-focused engine | Ads based on keywords only |
 | **SearX** | [https://searx.space](https://searx.space) (instances list) | Self-hostable metasearch engine | Open-source, no ads |
+
 </div>
 
 ### Subscription-based search
 
 <div style="overflow-x: auto;">
+   
 | Search engine | URL | Key features | Business model |
 |---------------|-----|--------------|---------------|
 | **Kagi** | [https://kagi.com](https://kagi.com) | Ad-free, customizable, AI features | $10/month subscription |
 | **Neeva** | [https://neeva.com](https://neeva.com) | Ad-free, includes personal accounts integration | Subscription-based (recently acquired by Snowflake) |
+
 </div>
 
 ### Independent index engines
 
 <div style="overflow-x: auto;">
+   
 | Search engine | URL | Key features | Business model |
 |---------------|-----|--------------|---------------|
 | **Mojeek** | [https://www.mojeek.com](https://www.mojeek.com) | UK-based independent crawler and index | Ads (with privacy focus) |
 | **Yep** | [https://yep.com](https://yep.com) | Independent index from Ahrefs | Ads with 90% revenue sharing to content creators |
 | **Noir** | [https://noir.essearch.eu](https://noir.essearch.eu) | EU initiative for European search engine | Government/EU funded |
+
 </div>
 
 ### Specialized search engines
 
 <div style="overflow-x: auto;">
+   
 | Search engine | URL | specialization | notes |
 |---------------|-----|--------------|---------------|
 | **Ecosia** | [https://www.ecosia.org](https://www.ecosia.org) | Eco-friendly | Uses profits to plant trees |
 | **Presearch** | [https://presearch.org](https://presearch.org) | Decentralized | Uses blockchain and node operators |
 | **You.com** | [https://you.com](https://you.com) | AI-integrated | Chat interface with web search |
 | **Perplexity** | [https://www.perplexity.ai](https://www.perplexity.ai) | AI research assistant | Combines search with AI synthesis |
+
 </div>
 
 ## Setting up UDM-14 (Google's "clean search" mode)
