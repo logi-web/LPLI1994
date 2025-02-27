@@ -1,30 +1,3 @@
-<style type="text/css">
-div[style*="overflow-x: auto"] {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-bottom: 1rem;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  min-width: 600px;
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
-  
-  h1, h2, h3 {
-    line-height: 1.3;
-  }
-}
-</style>
-
 # LPLI1994
 A brief summary of [Let's Party Like It's 1994: Reimagining How to Find Stuff Online, By Martin Hamilton](https://m.youtube.com/watch?v=iJ1PXzeQHVA) EMF2024.
 
