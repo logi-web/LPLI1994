@@ -2,3 +2,11 @@ title: LPLI1998
 description: A brief summary of LPLI1994, By Martin Hamilton EMF2024.
 markdown: kramdown
 remote_theme: riggraz/no-style-please
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
