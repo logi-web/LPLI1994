@@ -3,6 +3,7 @@ description: GitHub Pages site for my README
 markdown: kramdown
 remote_theme: riggraz/no-style-please
 baseurl: "/lpli1994"  # Match your repository name
+favicon: favicon.svg
 plugins:
   - jekyll-relative-links
 relative_links:
