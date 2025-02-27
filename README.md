@@ -1,5 +1,5 @@
 # LPLI1994
-A brief summary of [Let's Party Like it's 1994: Reimagining How to Find Stuff Online, By Martin Hamilton](https://m.youtube.com/watch?v=iJ1PXzeQHVA) EMF2024.
+A brief summary of [Let's Party Like It's 1994: Reimagining How to Find Stuff Online, By Martin Hamilton](https://m.youtube.com/watch?v=iJ1PXzeQHVA) EMF2024.
 
 ## [Martin's abstract from EMF](https://www.emfcamp.org/schedule/2024/13-lets-party-like-its-1994)
 
