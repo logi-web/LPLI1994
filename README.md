@@ -1,7 +1,15 @@
-# LPLi1994
-A brief summary of [Let's Party Like it's 1994, Martin Hamilton](https://m.youtube.com/watch?v=iJ1PXzeQHVA) EMF2024.
+# LPLI1994
+A brief summary of [Let's Party Like it's 1994: Reimagining How to Find Stuff Online, By Martin Hamilton](https://m.youtube.com/watch?v=iJ1PXzeQHVA) EMF2024.
 
-# Modern Alternative Search Engines & UDM-14 Guide
+## [Martin's abstract from EMF](https://www.emfcamp.org/schedule/2024/13-lets-party-like-its-1994)
+
+Internet search results were a toxic hellstew of ads, SEO spam, content farms and misinformation/disinformation even before the arrival of Large Language Models like ChatGPT in 2023. In 2024 nearly half the world’s population votes in elections that will have consequential impacts for key issues like climate change and civil rights, and it’s more important than ever before that search results can be relied upon.
+
+This talk will highlight a few ways to put search back in the service of the searcher rather than a handful of global megacorps. We’ll time-travel 30 years to the Internet’s Cambrian Explosion period, before Lycos, AltaVista and BackRub/PageRank, and look how technologies like Really Simple Syndication (RSS) and open source self-hosted meta-search engines like SearXNG can help. And then, demo gods permitting, I’ll show you how this can all come together to put a search engine in every pocket
+
+---
+
+# Summary
 
 ## Why Consider Alternatives?
 
@@ -101,11 +109,6 @@ For the technically inclined, consider:
 - **Whoogle**: [https://github.com/benbusby/whoogle-search](https://github.com/benbusby/whoogle-search) - A self-hosted, privacy-focused Google search proxy
 - **YaCy**: [https://yacy.net](https://yacy.net) - Decentralized, peer-to-peer search engine network
 
-### Mobile Search Options
-- Using Termux ([https://termux.dev](https://termux.dev)) on Android to run search tools
-- F-Droid ([https://f-droid.org](https://f-droid.org)) alternatives to Google Search
-- Bromite ([https://www.bromite.org](https://www.bromite.org)) - privacy-enhanced browser with built-in ad blocking
-
 ## Advanced Customization
 
 ### Using Search Aggregators
@@ -121,3 +124,11 @@ Tools like LibreX ([https://github.com/hnhx/librex](https://github.com/hnhx/libr
 By being more "goat" than "sheep" (to use Martin Hamilton's metaphor), you can reclaim control over your search experience, protect your privacy, and potentially access more diverse, less manipulated search results.
 
 Remember that the perfect search engine is the one that best meets your specific needs and values.
+
+---
+
+*This guide was created and augmented with assistance from Claude 3.7 Sonnet, February 2025, based on YoutTube's transcript of Martin Hamilton's talk "Let's Party Like It's 1994: Reimagining How to Find Stuff Online".*
+
+---
+
+**All Credits and Thanks to [Martin Hamilton](https://martinh.net)**
