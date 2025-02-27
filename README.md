@@ -72,6 +72,35 @@ The mainstream search landscape has evolved dramatically from the "pure search" 
 | **Perplexity** | [https://www.perplexity.ai](https://www.perplexity.ai) | AI research assistant | Combines search with AI synthesis |
 
 </div>
+<style>
+   
+div[style*="overflow-x: auto"] {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 600px; /* Ensures table maintains column structure */
+}
+
+@media (max-width: 768px) {
+  /* Improve mobile readability */
+  body {
+    padding: 10px;
+  }
+  
+  h1, h2, h3 {
+    line-height: 1.3;
+  }
+}
+   
+</style>
 
 ## Setting up UDM-14 (Google's "clean search" mode)
 
@@ -148,55 +177,3 @@ Remember that the perfect search engine is the one that best meets your specific
 ---
 
 **All credit and thanks to [Martin Hamilton](https://martinh.net)**
-
-
-
-<style>
-   
-div[style*="overflow-x: auto"] {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-bottom: 1rem;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  min-width: 600px; /* Ensures table maintains column structure */
-}
-
-th, td {
-  padding: 8px;
-  text-align: left;
-  border: 1px solid #ddd;
-  white-space: normal;
-  word-wrap: break-word;
-}
-
-th {
-  background-color: #f2f2f2;
-  position: sticky;
-  top: 0;
-}
-
-.method-container {
-  margin-bottom: 20px;
-  padding: 10px;
-  border-left: 3px solid #ccc;
-}
-
-@media (max-width: 768px) {
-  /* Improve mobile readability */
-  body {
-    padding: 10px;
-  }
-  
-  h1, h2, h3 {
-    line-height: 1.3;
-  }
-}
-   
-</style>
