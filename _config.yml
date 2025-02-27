@@ -1,7 +1,8 @@
 title: LPLI1998
-description: A brief summary of LPLI1994, By Martin Hamilton EMF2024.
+description: GitHub Pages site for my README
 markdown: kramdown
 remote_theme: riggraz/no-style-please
+baseurl: "/lpli1994"  # Match your repository name
 plugins:
   - jekyll-relative-links
 relative_links:
