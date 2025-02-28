@@ -1,9 +1,12 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* Import the theme styles first */
+@import "no-style-please";
 
+/* Then add your custom styles with higher specificity */
 table {
+  background-color: red !important;
   display: block !important;
   overflow-x: auto !important;
   width: fit-content !important;
