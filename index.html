@@ -6,4 +6,24 @@ layout: default
       {% capture readme_content %}{% include_relative README.md %}{% endcapture %}
       {{ readme_content | markdownify }}
     </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Find all tables on the page
+        const tables = document.querySelectorAll('table');
+        
+        // Wrap each table in a div with class 'tableholder'
+        tables.forEach(function(table) {
+          // Skip if already wrapped
+          if (table.parentNode.classList.contains('tableholder')) return;
+          
+          // Create wrapper
+          const wrapper = document.createElement('div');
+          wrapper.classList.add('tableholder');
+          
+          // Replace table with wrapped table
+          table.parentNode.insertBefore(wrapper, table);
+          wrapper.appendChild(table);
+        });
+      });
+    </script>
 </body>
