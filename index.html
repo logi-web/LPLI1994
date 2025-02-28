@@ -1,10 +1,402 @@
----
-layout: default
----
-
-<body> 
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LPLI1998</title>
+    <link type="application/atom+xml" rel="alternate" href="https://logi-web.github.io/lpli1994/feed.xml" title="LPLI1998" /><link rel="shortcut icon" type="image/x-icon" href="/lpli1994/favicon.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.css" integrity="sha384-OH8qNTHoMMVNVcKdKewlipV4SErXqccxxlg6HC9Cwjr5oZu2AdBej1TndeCirael" crossorigin="anonymous">
+    <style>
+        body[a="dark"] {
+          filter: invert(1); }
+          body[a="dark"] img {
+            filter: invert(1); }
+            body[a="dark"] img.ioda {
+              filter: invert(0); }
+          body[a="dark"] .emoji {
+            filter: invert(1); }
+          body[a="dark"] iframe {
+            filter: invert(1); }
+        
+        @media (prefers-color-scheme: dark) {
+          body[a="auto"] {
+            filter: invert(1); }
+            body[a="auto"] img {
+              filter: invert(1); }
+              body[a="auto"] img.ioda {
+                filter: invert(0); }
+            body[a="auto"] .emoji {
+              filter: invert(1); }
+            body[a="auto"] iframe {
+              filter: invert(1); } }
+        html, body {
+          background: white; }
+        
+        html {
+          height: 100%;
+          scroll-behavior: smooth; }
+        
+        body {
+          color: black;
+          font-family: monospace;
+          font-size: 16px;
+          line-height: 1.4;
+          margin: 0;
+          min-height: 100%;
+          overflow-wrap: break-word; }
+        
+        .post-meta {
+          text-align: right; }
+        
+        h2, h3, h4, h5, h6 {
+          margin-top: 3rem; }
+        
+        hr {
+          margin: 2rem 0; }
+        
+        p {
+          margin: 1rem 0; }
+        
+        li {
+          margin: 0.4rem 0; }
+        
+        *:target {
+          background: yellow; }
+        
+        .w {
+          max-width: 640px;
+          margin: 0 auto;
+          padding: 4rem 2rem; }
+        
+        hr {
+          text-align: center;
+          border: 0; }
+          hr:before {
+            content: "/////"; }
+          hr:after {
+            content: attr(data-content) "/////"; }
+        
+        code {
+          color: white;
+          background: black; }
+        
+        div.highlighter-rouge code {
+          display: block;
+          overflow-x: auto;
+          white-space: pre-wrap;
+          padding: 1rem; }
+        
+        blockquote {
+          font-style: italic;
+          border: thin solid black;
+          padding: 1rem; }
+          blockquote p {
+            margin: 0; }
+        
+        img {
+          max-width: 100%;
+          display: block;
+          margin: 0 auto; }
+        
+        
+        /* Then add your custom styles with higher specificity */
+        table {
+          background-color: red !important;
+          display: block !important;
+          overflow-x: auto !important;
+          width: fit-content !important;
+          max-width: 100% !important;
+        }
+        
+        table, th, td {
+          border: thin solid black !important;
+          border-collapse: collapse !important;
+          padding: 0.4rem !important;
+        }
+        
+        /* Force wrapping within table cells */
+        th, td {
+          white-space: normal !important;
+          word-wrap: break-word !important;
+        }
+        
+        /*# sourceMappingURL=main.css.map */
+    </style>
+</head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <body> 
     <div class="markdown-content">
-      {% capture readme_content %}{% include_relative README.md %}{% endcapture %}
-      {{ readme_content | markdownify }}
+      
+      <h1 id="lpli1994">LPLI1994</h1>
+<p>A brief summary of <a href="https://m.youtube.com/watch?v=iJ1PXzeQHVA">Let’s Party Like It’s 1994: Reimagining How to Find Stuff Online, By Martin Hamilton</a> EMF2024.</p>
+
+<h2 id="martins-abstract-from-emf"><a href="https://www.emfcamp.org/schedule/2024/13-lets-party-like-its-1994">Martin’s abstract from EMF</a></h2>
+
+<p>Internet search results were a toxic hellstew of ads, SEO spam, content farms and misinformation/disinformation even before the arrival of Large Language Models like ChatGPT in 2023. In 2024 nearly half the world’s population votes in elections that will have consequential impacts for key issues like climate change and civil rights, and it’s more important than ever before that search results can be relied upon.</p>
+
+<p>This talk will highlight a few ways to put search back in the service of the searcher rather than a handful of global megacorps. We’ll time-travel 30 years to the Internet’s Cambrian Explosion period, before Lycos, AltaVista and BackRub/PageRank, and look how technologies like Really Simple Syndication (RSS) and open source self-hosted meta-search engines like SearXNG can help. And then, demo gods permitting, I’ll show you how this can all come together to put a search engine in every pocket</p>
+
+<hr />
+
+<h1 id="summary">Summary</h1>
+
+<h2 id="why-consider-alternatives">Why consider alternatives?</h2>
+
+<p>The mainstream search landscape has evolved dramatically from the “pure search” days of early Google to today’s experience filled with:</p>
+
+<ul>
+  <li>Excessive sponsored content and ads</li>
+  <li>Self-promotion of proprietary services</li>
+  <li>Privacy concerns and tracking</li>
+  <li>Content filtering and potential censorship</li>
+  <li>AI-generated results with potential inaccuracies</li>
+</ul>
+
+<h2 id="notable-alternative-search-engines">Notable alternative search engines</h2>
+
+<h3 id="privacy-focused-search-engines">Privacy-focused search engines</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Search engine</th>
+      <th>URL</th>
+      <th>Key features</th>
+      <th>Business model</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DuckDuckGo</strong></td>
+      <td><a href="https://duckduckgo.com">https://duckduckgo.com</a></td>
+      <td>No personal tracking, private browsing</td>
+      <td>Ads based on search keywords only</td>
+    </tr>
+    <tr>
+      <td><strong>Startpage</strong></td>
+      <td><a href="https://startpage.com">https://startpage.com</a></td>
+      <td>Google results without tracking, Anonymous View</td>
+      <td>Non-personalized ads</td>
+    </tr>
+    <tr>
+      <td><strong>Brave Search</strong></td>
+      <td><a href="https://search.brave.com">https://search.brave.com</a></td>
+      <td>Independent index, no tracking</td>
+      <td>Freemium (basic search free, premium features paid)</td>
+    </tr>
+    <tr>
+      <td><strong>Qwant</strong></td>
+      <td><a href="https://www.qwant.com">https://www.qwant.com</a></td>
+      <td>European privacy-focused engine</td>
+      <td>Ads based on keywords only</td>
+    </tr>
+    <tr>
+      <td><strong>SearX</strong></td>
+      <td><a href="https://searx.space">https://searx.space</a> (instances list)</td>
+      <td>Self-hostable metasearch engine</td>
+      <td>Open-source, no ads</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="subscription-based-search">Subscription-based search</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Search engine</th>
+      <th>URL</th>
+      <th>Key features</th>
+      <th>Business model</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Kagi</strong></td>
+      <td><a href="https://kagi.com">https://kagi.com</a></td>
+      <td>Ad-free, customizable, AI features</td>
+      <td>$10/month subscription</td>
+    </tr>
+    <tr>
+      <td><strong>Neeva</strong></td>
+      <td><a href="https://neeva.com">https://neeva.com</a></td>
+      <td>Ad-free, includes personal accounts integration</td>
+      <td>Subscription-based (recently acquired by Snowflake)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="independent-index-engines">Independent index engines</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Search engine</th>
+      <th>URL</th>
+      <th>Key features</th>
+      <th>Business model</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Mojeek</strong></td>
+      <td><a href="https://www.mojeek.com">https://www.mojeek.com</a></td>
+      <td>UK-based independent crawler and index</td>
+      <td>Ads (with privacy focus)</td>
+    </tr>
+    <tr>
+      <td><strong>Yep</strong></td>
+      <td><a href="https://yep.com">https://yep.com</a></td>
+      <td>Independent index from Ahrefs</td>
+      <td>Ads with 90% revenue sharing to content creators</td>
+    </tr>
+    <tr>
+      <td><strong>Noir</strong></td>
+      <td><a href="https://noir.essearch.eu">https://noir.essearch.eu</a></td>
+      <td>EU initiative for European search engine</td>
+      <td>Government/EU funded</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="specialized-search-engines">Specialized search engines</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Search engine</th>
+      <th>URL</th>
+      <th>specialization</th>
+      <th>notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Ecosia</strong></td>
+      <td><a href="https://www.ecosia.org">https://www.ecosia.org</a></td>
+      <td>Eco-friendly</td>
+      <td>Uses profits to plant trees</td>
+    </tr>
+    <tr>
+      <td><strong>Presearch</strong></td>
+      <td><a href="https://presearch.org">https://presearch.org</a></td>
+      <td>Decentralized</td>
+      <td>Uses blockchain and node operators</td>
+    </tr>
+    <tr>
+      <td><strong>You.com</strong></td>
+      <td><a href="https://you.com">https://you.com</a></td>
+      <td>AI-integrated</td>
+      <td>Chat interface with web search</td>
+    </tr>
+    <tr>
+      <td><strong>Perplexity</strong></td>
+      <td><a href="https://www.perplexity.ai">https://www.perplexity.ai</a></td>
+      <td>AI research assistant</td>
+      <td>Combines search with AI synthesis</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="setting-up-udm-14-googles-clean-search-mode">Setting up UDM-14 (Google’s “clean search” mode)</h2>
+
+<p>UDM-14 is a parameter discovered in Google Search URLs that removes AI overviews and many promotional elements, providing a cleaner search experience reminiscent of earlier Google.</p>
+
+<h3 id="method-1-using-udm-14com">Method 1: Using UDM-14.com</h3>
+
+<p>The simplest approach is to use the UDM-14.com service:</p>
+
+<ol>
+  <li>Visit <a href="https://udm14.com/">https://udm14.com/</a></li>
+  <li>Follow the instructions to add it as your default search engine</li>
+</ol>
+
+<h3 id="method-2-manual-browser-configuration">Method 2: Manual browser configuration</h3>
+
+<h4 id="for-chrome">For Chrome:</h4>
+<ol>
+  <li>Go to Settings &gt; Search engine &gt; Manage search engines</li>
+  <li>Click “Add”</li>
+  <li>Enter:
+    <ul>
+      <li>Search engine: “Google Clean”</li>
+      <li>Shortcut: “g” (or your preference)</li>
+      <li>URL: <code class="language-plaintext highlighter-rouge">https://www.google.com/search?q=%s&amp;udm=14</code></li>
+    </ul>
+  </li>
+  <li>Click “Add”</li>
+  <li>Find “Google Clean” in your list and click “Make default”</li>
+</ol>
+
+<h4 id="for-firefox">For Firefox:</h4>
+<ol>
+  <li>Right-click the address bar and select “Add a Keyword for this Search”</li>
+  <li>Visit Google.com</li>
+  <li>Right-click the search box and select “Add a Keyword for this Search”</li>
+  <li>Name it “Google Clean” with keyword “g”</li>
+  <li>Edit the URL to add <code class="language-plaintext highlighter-rouge">&amp;udm=14</code> before saving</li>
+  <li>Alternatively, install an add-on like “Add custom search engine”</li>
+</ol>
+
+<h4 id="for-safari">For Safari:</h4>
+<ol>
+  <li>Create a bookmark with this URL: <code class="language-plaintext highlighter-rouge">https://www.google.com/search?q=%s&amp;udm=14</code></li>
+  <li>Edit the bookmark to add a keyword like “g”</li>
+</ol>
+
+<h3 id="method-3-browser-extensions">Method 3: Browser extensions</h3>
+
+<p>Several browser extensions automate the addition of UDM-14:</p>
+
+<ul>
+  <li>“Google Sans AI” (<a href="https://chromewebstore.google.com/detail/google-sans-ai/jooddajpanbdklojchgaaniamjlcknmn">https://chromewebstore.google.com/detail/google-sans-ai/jooddajpanbdklojchgaaniamjlcknmn</a>) for Chrome</li>
+  <li>“Unprompted” (<a href="https://github.com/chiefonboarding/Unprompted">https://github.com/chiefonboarding/Unprompted</a>) for multiple browsers</li>
+  <li>“uBlacklist” (<a href="https://github.com/iorate/uBlacklist">https://github.com/iorate/uBlacklist</a>) can be configured to clean up search results</li>
+</ul>
+
+<h2 id="building-your-own-search-solution">Building your own search solution</h2>
+
+<p>For the technically inclined, consider:</p>
+
+<h3 id="self-hosted-search-options">Self-hosted search options</h3>
+<ul>
+  <li><strong>SearXNG</strong>: <a href="https://github.com/searxng/searxng">https://github.com/searxng/searxng</a> - A privacy-respecting metasearch engine you can self-host</li>
+  <li><strong>Whoogle</strong>: <a href="https://github.com/benbusby/whoogle-search">https://github.com/benbusby/whoogle-search</a> - A self-hosted, privacy-focused Google search proxy</li>
+  <li><strong>YaCy</strong>: <a href="https://yacy.net">https://yacy.net</a> - Decentralized, peer-to-peer search engine network</li>
+</ul>
+
+<h2 id="advanced-customization">Advanced customization</h2>
+
+<h3 id="using-search-aggregators">Using search aggregators</h3>
+<p>Tools like LibreX (<a href="https://github.com/hnhx/librex">https://github.com/hnhx/librex</a>) and SearXNG let you combine results from multiple search engines.</p>
+
+<h3 id="creating-custom-search-experiences">Creating custom search experiences</h3>
+<ul>
+  <li>Use RSS feeds and site maps to build targeted search</li>
+  <li>Implement shared blocklists for filtering unwanted content</li>
+  <li>Deploy search containers for portable search solutions</li>
+</ul>
+
+<h2 id="final-thoughts">Final thoughts</h2>
+
+<p>By being more “goat” than “sheep” (to use Martin’s metaphor), you can reclaim control over your search experience, protect your privacy, and potentially access more diverse, less manipulated search results.</p>
+
+<p>Remember that the perfect search engine is the one that best meets your specific needs and values.</p>
+
+<hr />
+
+<p><em>This guide was produced with assistance from Claude 3.7 Sonnet, February 2025, based on YouTube’s transcript of Martin Hamilton’s talk “Let’s Party Like It’s 1994: Reimagining How to Find Stuff Online”.</em></p>
+
+<hr />
+
+<p><strong>All credit and thanks to <a href="https://martinh.net">Martin Hamilton</a></strong></p>
+
     </div>
 </body>
+
+      </div>
+    </main>
+  </body>
+</html>
