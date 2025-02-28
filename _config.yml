@@ -1,7 +1,7 @@
 title: LPLI1998
 description: GitHub Pages site for my README
 markdown: kramdown
-remote_theme: logi-web/no-style-please-responsive
+remote_theme: riggraz/no-style-please
 baseurl: "/lpli1994"  # Match your repository name
 favicon: favicon.svg
 plugins:
