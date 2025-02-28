@@ -6,6 +6,10 @@ baseurl: "/lpli1994"  # Match your repository name
 favicon: favicon.svg
 plugins:
   - jekyll-relative-links
+  - jekyll-spaceship
+jekyll-spaceship:
+  processors:
+    - table-processor
 relative_links:
   enabled: true
 kramdown:
