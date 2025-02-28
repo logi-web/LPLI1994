@@ -1,7 +1,6 @@
 ---
 ---
-
-@import "no-style-please";
+@import "{{ site.theme }}";
 
 /* Then add your custom styles with higher specificity */
 table {
