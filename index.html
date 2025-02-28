@@ -1,6 +1,28 @@
 ---
 layout: default
 ---
+<head>
+    <styles>
+        table {
+          display: block;
+          overflow-x: auto;
+          width: fit-content;
+          max-width: 100%;
+        }
+        
+        table, th, td {
+          border: thin solid black;
+          border-collapse: collapse;
+          padding: 0.4rem;
+        }
+        
+        /* Force wrapping within table cells */
+        th, td {
+          white-space: normal;
+          word-wrap: break-word;
+        }
+    </styles>
+</head>
 <body> 
     <div class="markdown-content">
       {% capture readme_content %}{% include_relative README.md %}{% endcapture %}
