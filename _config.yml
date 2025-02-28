@@ -1,13 +1,26 @@
 title: LPLI1998
 description: GitHub Pages site for my README
-markdown: kramdown
-remote_theme: https://github.com/riggraz/no-style-please
+remote_theme: riggraz/no-style-please
+url: https://logi-web.github.io # root address of the site
 baseurl: "/lpli1994"  # Match your repository name
+
 favicon: favicon.svg
+
+permalink: /:slug.html
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+
+sass:
+  style: compressed
+
 plugins:
   - jekyll-relative-links
+
 relative_links:
   enabled: true
+
+markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
