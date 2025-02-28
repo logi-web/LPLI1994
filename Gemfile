@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-relative-links"
   gem "jekyll-spaceship"
   gem "jekyll-remote-theme"
+  gem "jekyll-github-metadata"
 end
 
 # For syntax highlighting with Rouge
