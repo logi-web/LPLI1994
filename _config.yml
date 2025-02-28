@@ -13,6 +13,9 @@ plugins:
 jekyll-spaceship:
   processors:
     - table-processor
+  table-processor:
+    default_class: 'responsive-table'
+    style: 'scroll'  # Options: 'scroll' or 'responsive'
 relative_links:
   enabled: true
 kramdown:
