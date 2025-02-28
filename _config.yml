@@ -1,18 +1,7 @@
 title: LPLI1998
 description: GitHub Pages site for my README
-remote_theme: riggraz/no-style-please
 url: https://logi-web.github.io # root address of the site
 baseurl: "/lpli1994"  # Match your repository name
-
-favicon: favicon.svg
-
-permalink: /:slug.html
-
-theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-
-sass:
-  style: compressed
 
 plugins:
   - jekyll-relative-links
