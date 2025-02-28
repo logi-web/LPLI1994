@@ -3,10 +3,13 @@ description: GitHub Pages site for my README
 markdown: kramdown
 remote_theme: riggraz/no-style-please
 baseurl: "/lpli1994"  # Match your repository name
+url: "https://logi-web.github.io"  
+repository: "logi-web/lpli1994"  
 favicon: favicon.svg
 plugins:
   - jekyll-relative-links
   - jekyll-spaceship
+  - jekyll-github-metadata
 jekyll-spaceship:
   processors:
     - table-processor
