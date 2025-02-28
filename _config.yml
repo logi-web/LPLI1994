@@ -1,21 +1,11 @@
 title: LPLI1998
 description: GitHub Pages site for my README
 markdown: kramdown
-remote_theme: riggraz/no-style-please
+remote_theme: logi-web/no-style-please-responsive
 baseurl: "/lpli1994"  # Match your repository name
-url: "https://logi-web.github.io"  
-repository: "logi-web/lpli1994"  
 favicon: favicon.svg
 plugins:
   - jekyll-relative-links
-  - jekyll-spaceship
-  - jekyll-github-metadata
-jekyll-spaceship:
-  processors:
-    - table-processor
-  table-processor:
-    default_class: 'responsive-table'
-    style: 'scroll'  # Options: 'scroll' or 'responsive'
 relative_links:
   enabled: true
 kramdown:
