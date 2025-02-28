@@ -127,10 +127,16 @@
         /*# sourceMappingURL=main.css.map */
     </style>
 </head>
-<body> 
-    <div class="markdown-content">
-      {% capture readme_content %}{% include_relative README.md %}{% endcapture %}
-      {{ readme_content | markdownify }}
-    </div>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <body> 
+            <div class="markdown-content">
+              {% capture readme_content %}{% include_relative README.md %}{% endcapture %}
+              {{ readme_content | markdownify }}
+            </div>
+        </body>
+      </div>
+    </main>
 </body>
 </html>
