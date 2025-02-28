@@ -25,11 +25,11 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_branch: gh-pages  # The branch the action should deploy to
-          cname: ${{ github.event.repository.name }}
+          publish_branch: gh-pages
